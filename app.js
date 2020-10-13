@@ -39,6 +39,14 @@ studentRoutes(app);
 const teacherRoutes = require("./routes/teacher.routes");
 teacherRoutes(app);
 
+/** Faculty Routes Loading */
+const facultyRoutes = require("./routes/faculty.routes");
+facultyRoutes(app);
+
+/** Department Routes Loading */
+const departmentRoutes = require("./routes/department.routes");
+departmentRoutes(app);
+
 /** Period Routes Loading */
 const periodRoutes = require("./routes/period.routes");
 periodRoutes(app);
